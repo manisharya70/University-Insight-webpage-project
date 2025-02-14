@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study MBBS Abroad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <img src="icons and iamges/2475934.webp" class="main-icon" alt="Descriptive Text" loading="lazy">
+        <span class="left-most-header" >
+         Study MBBS Abroad
+        </span>
+        <span class ="center-header">
+            <a href=""><span class="header-details">Home</span>
+            
+             <span class="header-details">Countries</span>
+             <span class="header-details">Contact</span>
+            </a>
+        </span>
+        <span class="right-most-header">
+         <button class="cta-button" onclick="openForm()">Apply Now</button>
+        </span>
+    </div>
+
+    <div class="line-2">
+        <div class="right-section-line-2">
+            <h2>Start Your MBBS Journey Abroad</h2>
+            <div>Affordable tuition<p> World-class education</p> Global career opportunities</div>
+            <div class="btn-2"><button class="cta-button" onclick="openForm()">Apply Now</button></div>
+        </div>
+        <div class="left-section-line-2">
+            <h2>Why Study MBBS Abroad?</h2>
+            
+                <p>Lower tuition fees</p>
+                <p>Globally recognized degrees</p>
+                <p>Modern facilities & international faculty</p>
+            
+        </div>
+    </div>
+    
+    
+    
+    <div class="countries">
+        <h2>Top Countries</h2>
+          <div class="country-grid">
+            <div class="country-name-1">Russia</div>
+            <div class="country-name-2">Uzbekistan</div>
+            <div class="country-name-3">Kazakhstan</div>
+            <div class="country-name-4">Philippines</div>
+            <div class="country-name-5">Ukraine</div>
+            <div class="country-name-6">Georgia</div>
+            <div class="country-name-7">Kyrgyzstan</div>
+            <div class="country-name-8">Egypt</div>
+        </div>
+    </div>
+    
+    <div class="admission">
+        <h2>Admission Process & Eligibility</h2>
+        
+            <p class="steps">Follow these steps to apply:</p>
+            <p class="steps">Check eligibility (High school diploma, science background)</p>
+            <p class="steps">Submit application & documents</p>
+            <p class="steps">Receive admission letter</p>
+            <p class="steps">Apply for a student visa</p>
+            <p class="steps">Fly to your chosen university</p>
+        
+    </div>
+    
+    <section class="cta-form" id="form-section">
+        <h2>Get More Details</h2>
+        <form id="leadForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="tel" id="phone" placeholder="Your Phone" required>
+            <select id="country">
+                <option value="">Select Preferred Country</option>
+                <option value="Russia">Russia</option>
+                <option value="Uzbekistan">Uzbekistan</option>
+                <option value="Kazakhstan">Kazakhstan</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Kyrgyzstan">Kyrgyzstan</option>
+                <option value="Egypt">Egypt</option>
+            </select>
+            <p><button type="submit" class="submit-btn">Submit</button></p>
+        </form>
+        <div id="responseMessage"></div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>

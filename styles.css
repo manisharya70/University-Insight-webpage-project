@@ -1,0 +1,283 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    margin: 10px;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+    margin: 5px;
+  }
+}    
+.main-icon {
+height : 45px;
+margin-right : 10px
+}
+a {
+    text-decoration: none; 
+}
+.header {
+    background: linear-gradient(45deg, rgb(154, 89, 223), #feb47b);;
+    color: white;
+    padding: 10px 20px;
+    display : flex;
+    align-items : center;
+    
+    position : fixed;
+    height : 50px;
+    width : 100%;
+    padding-left : 15px;
+    padding-right : 15px;
+    margin-bottom : 100px;
+    margin-right :100px;
+    border-bottom: 2px solid #ddd;
+}
+.right-most-header {
+    margin-right: 30px;
+    margin-left :70px;
+    
+    
+}
+.left-most-header {
+    margin-right : 500px;
+    
+}
+.center-header {
+    margin-left : 20px;
+}
+.line-2 {
+    background: hwb(0 100% 0%);
+    padding-top: 80px;
+    padding-bottom: -20px;
+    display : grid;
+    grid-template-columns: 10fr 10fr;
+    margin-right : 10px;
+}
+.right-section-line-2 {
+    border-right : solid darkgray;
+    border-bottom : solid darkgray;
+    border-radius : 10px;
+    background-image: url('icons and iamges/right-background.avif'); 
+    background-repeat: no-repeat; 
+    background-position: 400px 22px ; 
+    background-size: 200px;
+    margin: 0; 
+    padding-top: 0;
+}
+.left-section-line-2 {
+    border-right : solid;
+    border-bottom : solid;
+    border-radius : 10px;
+    border-color :#b4b6bb;
+    background-image: url('icons and iamges/e-ilustracao-desenhada-de-estudo-no-exterior_23-2150314523.avif');
+    background-repeat: no-repeat;
+    background-position: -10px 35px ; 
+    background-size: 200px;
+    margin: 0; 
+    padding-top: 0;
+}
+.btn-2{
+    margin-top :10px;
+    margin-bottom : 10px;
+}
+.country-grid {
+    display : grid;
+    grid-template-columns: 10fr 10fr 10fr ;
+    grid-template-rows: 15fr 15fr 15fr ;
+}
+.steps {
+    background-color :hsl(0, 0%, 100%);
+    padding : 10px;
+    border-radius: 200px;
+    margin-left : 20px;
+    margin-right : 20px;
+}
+.cta-button {
+    background: linear-gradient(45deg, #c03ec4, #1e63e9);
+    color: white; 
+    border: none; 
+    padding: 12px 24px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; 
+}
+.cta-button:hover {
+    background-color: #d39edc; 
+    transform: translateY(-2px); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+}
+.cta-button:active {
+    transform: translateY(1px); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #dbb2d9; 
+}
+.cta-button:focus {
+    
+    outline-offset: 4px;
+}
+.cta-buttton.glow {
+    animation: glow-effect 1.5s infinite;
+  }
+  
+  @keyframes glow-effect {
+    0% {
+      box-shadow: 0 0 10px rgba(72, 239, 128, 0.8);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(72, 239, 128, 1);
+    }
+    100% {
+      box-shadow: 0 0 10px rgba(72, 239, 128, 0.8);
+    }
+  }
+.cta-form {
+    background: hsl(0, 3%, 93%);
+    padding: 20px;
+}
+form input, form select {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+#country {
+    width : 82%;
+}
+.header-details {
+    padding-left : 10px;
+    color :#fbfafa;
+    text-decoration: none;
+}
+.submit-btn {
+    background: linear-gradient(45deg, #6a11cb, #2575fc); 
+    color: white; 
+    font-size: 16px; 
+    font-weight: bold; 
+    padding: 12px 20px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease; 
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); 
+}
+.submit-btn:hover {
+    background: linear-gradient(45deg, #5a0fc7, #1e63e9); 
+    transform: translateY(-3px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+}
+.submit-btn:focus {
+   outline-offset: 4px;
+}
+.submit-btn:active {
+    transform: translateY(1px);
+
+}
+.submit-btn.glow {
+    animation: pulse-glow 1.5s infinite;
+}
+@keyframes pulse-glow {
+    0% {
+      box-shadow: 0 0 10px rgba(101, 30, 255, 0.8);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(101, 30, 255, 1);
+    }
+    100% {
+      box-shadow: 0 0 10px rgba(101, 30, 255, 0.8);
+    }
+}
+.admission {
+    background: linear-gradient(45deg, rgb(239, 222, 186), hsl(304, 100%, 92%));;
+    padding-bottom : 5px;
+    padding-top :5px;
+}
+.countries {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    padding-top :12px;
+}
+.country-name-1 {
+    background-image: url('icons and iamges/Flag-Russia.webp');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position:  55px -20px ;
+    padding : 20px;
+    align-items: center;
+    padding-right: 50px;
+}
+  .country-name-2 {
+    background-image: url('icons and iamges/Flag_of_Uzbekistan.svg');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position:  55px 0px ;
+    padding : 20px;
+    align-items: center;
+  }
+  .country-name-3 {
+    background-image: url('icons and iamges/Flag_of_Kazakhstan.svg');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position:  55px 0px ;
+    padding : 20px;
+    align-items: center;
+  }
+  .country-name-4 {
+    background-image: url('icons and iamges/2000px-Flag_of_the_Philippines.svg_.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position:  55px 0px ;
+    padding : 20px;
+    align-items: center;
+  }
+  .country-name-5 {
+    background-image: url('icons and iamges/ukraine.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position:  55px -15px ;
+    padding : 20px;
+    align-items: center;
+    padding-right: 45px;
+  }
+  .country-name-6 {
+    background-image: url('icons and iamges/Flag_of_Georgia.svg.webp');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position:  55px 0px ;
+    padding : 20px;
+    align-items: center;
+    padding-right: 46px;
+  }
+  .country-name-7 {
+    background-image: url('icons and iamges/ka.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position:  55px 0px ;
+    padding : 20px;
+    align-items: center;
+  }
+  .country-name-8 {
+    background-image: url('icons and iamges/Flag_of_Egypt.svg');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position:  55px 0px ;
+    padding : 20px;
+    align-items: center;
+    padding-right: 53px;
+    
+  }
+  
+.check-gif {
+    width : 40px;
+    
+    
+}
